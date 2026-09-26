@@ -1,0 +1,132 @@
+/* ==========================================
+   إعدادات أساسية واستيراد الخطوط
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* خلفية الصفحة وتوسيط المحتوى */
+body {
+    background-color: #0f172a; /* لون داكن مريح للعين */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ==========================================
+   الحاوية الرئيسية
+   ========================================== */
+.container {
+    width: 100%;
+    max-width: 420px; /* العرض المثالي لشاشات الهواتف */
+    text-align: center;
+}
+
+/* ==========================================
+   قسم الملف الشخصي (Profile)
+   ========================================== */
+.profile {
+    margin-bottom: 30px;
+}
+
+/* صورة البروفايل */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8; /* إطار أزرق أنيق */
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.2);
+}
+
+/* الاسم والوصف */
+.profile h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #f8fafc;
+}
+
+.bio {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+/* ==========================================
+   قسم الروابط (Links)
+   ========================================== */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* المسافة بين البطاقات */
+}
+
+/* تصميم البطاقة/الزر العام */
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+    background-color: #1e293b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* حجم الأيقونات */
+.link-card i {
+    font-size: 1.3rem;
+}
+
+/* ==========================================
+   تأثيرات عند التمرير (Hover Effects)
+   ========================================== */
+.link-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ألوان الأيقونات والحدود الخاصة بكل منصة عند التمرير */
+
+/* فيسبوك */
+.facebook:hover {
+    border-color: #1877f2;
+    color: #1877f2;
+}
+
+/* انستغرام */
+.instagram:hover {
+    border-color: #e4405f;
+    color: #e4405f;
+}
+
+/* سناب شات */
+.snapchat:hover {
+    border-color: #fffc00;
+    color: #fffc00;
+}
+
+/* واتساب */
+.whatsapp:hover {
+    border-color: #25d366;
+    color: #25d366;
+}
+
+/* تيك توك */
+.tiktok:hover {
+    border-color: #00f2fe;
+    color: #00f2fe;
+}
