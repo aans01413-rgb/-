@@ -113,12 +113,6 @@ body {
     color: #e4405f;
 }
 
-/* سناب شات */
-.snapchat:hover {
-    border-color: #fffc00;
-    color: #fffc00;
-}
-
 /* واتساب */
 .whatsapp:hover {
     border-color: #25d366;
